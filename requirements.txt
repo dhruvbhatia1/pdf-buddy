@@ -6,3 +6,4 @@ faiss-cpu
 huggingface_hub
 InstructorEmbedding
 sentence_transformers
+langchain-community

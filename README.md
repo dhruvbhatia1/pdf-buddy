@@ -38,11 +38,6 @@ PDFBuddy relies on the following libraries:
 - HuggingFace Transformers: For language modeling and question answering.
 - Other supporting libraries for text processing and handling.
 
-## Contributions
-
-Contributions to PDFBuddy are welcome! If you encounter any bugs, have suggestions for improvements, or want to add new features, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
+## Contributers
+- Naman Sharma 
+- Dhruv Bhatia

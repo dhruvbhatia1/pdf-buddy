@@ -10,6 +10,9 @@ PDFBuddy is a simple yet powerful tool designed to assist users in extracting te
 
 ## How it Works
 
+![PDF-LangChain](https://github.com/dhruvbhatia1/pdf-buddy/assets/65610188/033a2893-372d-47fe-ad11-352f42f788f8)
+
+
 1. PDF Loading: The app reads multiple PDF documents and extracts their text content.
 2. Text Chunking: The extracted text is divided into smaller chunks that can be processed effectively.
 3. Language Model: The application utilizes a language model to generate vector representations (embeddings) of the text chunks.

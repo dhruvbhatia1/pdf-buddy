@@ -8,11 +8,16 @@ PDFBuddy is a simple yet powerful tool designed to assist users in extracting te
 - **Question Answering**: Ask questions about the uploaded documents, and PDFBuddy will provide relevant answers based on the extracted text.
 - **Conversational Interface**: Engage in natural language conversations with PDFBuddy to interactively explore the document content.
 
-## How to Use
+## How it Works
 
-1. **Upload PDFs**: Click on the file upload button in the sidebar to upload one or more PDF documents.
-2. **Ask Questions**: Type your questions about the content of the uploaded documents in the input field provided.
-3. **View Answers**: PDFBuddy will process your question and display relevant answers in the main interface.
+![PDF-LangChain](https://github.com/dhruvbhatia1/pdf-buddy/assets/65610188/033a2893-372d-47fe-ad11-352f42f788f8)
+
+
+1. PDF Loading: The app reads multiple PDF documents and extracts their text content.
+2. Text Chunking: The extracted text is divided into smaller chunks that can be processed effectively.
+3. Language Model: The application utilizes a language model to generate vector representations (embeddings) of the text chunks.
+4. Similarity Matching: When you ask a question, the app compares it with the text chunks and identifies the most semantically similar ones.
+5. Response Generation: The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs.
 
 ## Installation
 
